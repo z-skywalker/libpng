@@ -88,6 +88,7 @@ nbdist/
 nbproject/
 ## Visual Studio 2015 and newer
 .vs/
+*.user
 ## Visual Studio Code
 .vscode/*
 !.vscode/extensions.json
