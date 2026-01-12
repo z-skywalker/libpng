@@ -537,7 +537,6 @@
       <DisableSpecificWarnings>$(DisableSpecificWarnings)</DisableSpecificWarnings>
       <AdditionalIncludeDirectories>$(ZLibSrcDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <TreatWarningAsError>false</TreatWarningAsError>
-      <Optimization>Full</Optimization>
       <WholeProgramOptimization>true</WholeProgramOptimization>
     </ClCompile>
     <Link>
