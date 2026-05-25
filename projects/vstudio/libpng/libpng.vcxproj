@@ -54,6 +54,7 @@
     <ProjectGuid>{D6973076-9317-4EF2-A0B8-B7A18AC0713E}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>libpng</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(SolutionDir)\zlib.props" />
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -183,6 +184,8 @@
     <LinkIncremental>false</LinkIncremental>
     <CustomBuildBeforeTargets />
     <TargetName>$(ProjectName)16</TargetName>
+    <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(Platform)\$(Configuration)\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug Library|x64'">
     <LinkIncremental>false</LinkIncremental>
@@ -214,6 +217,8 @@
     <LinkIncremental>false</LinkIncremental>
     <CustomBuildBeforeTargets />
     <TargetName>$(ProjectName)16</TargetName>
+    <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(Platform)\$(Configuration)\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release Library|x64'">
     <LinkIncremental>false</LinkIncremental>
